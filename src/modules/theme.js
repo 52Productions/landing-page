@@ -109,6 +109,9 @@ const theme = {
       ...rawTheme.typography.body1,
       fontSize: 14,
     },
+    [rawTheme.breakpoints.down("xs")]: {
+      fontSize: 10,
+    }
   },
 };
 

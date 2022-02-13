@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 export default function AppFooter() {
   const classes = useStyles();
   return (
-    <Typography component="footer" className={classes.root}>
+    <Typography variant="body2" component="footer" className={classes.root}>
       © 52 Productions, Inc. {new Date().getFullYear()}
     </Typography>
   );
