@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Container from '@material-ui/core/Container';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '../components/Typography';
-import casinoChipsImage from '../../assets/casinochips_trial.png';
+import casinoChipsImage from '../../assets/casino_chips.jpeg';
 
 const styles = (theme) => ({
   root: {
@@ -22,9 +22,17 @@ const styles = (theme) => ({
     display:"flex",
     justifyContent:"center",
   },
-  iframe: {
+  iframeWrapper: {
     marginLeft: theme.spacing(8),
     marginRight: theme.spacing(8),
+  },
+  copyright: {
+    color: '#F8FBEF',
+    height: 30,
+    padding: theme.spacing(5),
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   background: {
     backgroundImage: `url(${casinoChipsImage})`,
@@ -50,6 +58,9 @@ function ContactForm(props) {
       <div className={classes.iframe}>
       <iframe title="google_contact_form" src="https://docs.google.com/forms/d/e/1FAIpQLSdcZSNZPAc2-M7Ln9MDsNyEqIVCnr2PWkcGohTc8NoCwebIxA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
+      <Typography variant="body2" component="footer" className={classes.copyright}>
+      © 52 Productions, Inc. {new Date().getFullYear()}
+    </Typography>
     </Container>
     </section>
   );

@@ -25,7 +25,6 @@ function Index() {
       <Hero />
       <Team />
       <ContactForm />
-      <AppFooter />
     </React.Fragment>
   );
 }

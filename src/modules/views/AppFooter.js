@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: theme.palette.secondary.light,
+    backgroundColor: theme.palette.casino.main,
   },
 }));
 

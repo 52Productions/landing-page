@@ -28,6 +28,11 @@ const rawTheme = createMuiTheme({
       main: green[500],
       dark: green[700],
     },
+    casino: {
+      light: 'hsl(0,0%,100%, 0.5)',
+      main: '#094265',
+      dark: '#041629'
+    },
   },
   typography: {
     fontFamily: "'Work Sans', sans-serif",
