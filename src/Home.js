@@ -9,7 +9,7 @@ import ContactForm from "./modules/views/ContactForm";
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Switch>
         <Route exact path="/">
           <Index />
