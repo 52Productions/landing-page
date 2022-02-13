@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Container from '@material-ui/core/Container';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '../components/Typography';
-import casinoChipsImage from '../../assets/casino_chips.jpeg';
+import casinoChipsImage from '../../assets/casino_chips_sm.jpg';
 
 const styles = (theme) => ({
   root: {
