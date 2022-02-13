@@ -2,7 +2,6 @@ import withRoot from "./modules/withRoot";
 // --- Post bootstrap -----
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import AppFooter from "./modules/views/AppFooter";
 import Hero from "./modules/views/Hero";
 import Team from "./modules/views/Team";
 import ContactForm from "./modules/views/ContactForm";
