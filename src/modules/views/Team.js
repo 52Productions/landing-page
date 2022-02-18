@@ -7,6 +7,7 @@ import Container from '@material-ui/core/Container';
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '../components/Typography';
 import adam_cheyer from '../../assets/adam_cheyer.png';
+import ac_image from '../../assets/ac_image_2.png';
 import jp from '../../assets/jp_beach.jpg';
 import richard_turner from '../../assets/richard_turner_thumbnail.png';
 import asa_turner from '../../assets/asa_turner.png';
@@ -41,13 +42,17 @@ const styles = (theme) => ({
   avatar: {
     height: '250px',
     width: '250px',
-    borderWidth: '2px',
+    borderWidth: '1px',
     borderColor: 'black',
     boxShadow: '2px 2px 2px 2px royalblue',
   },
   title: {
     marginTop: theme.spacing(5),
     marginBottom: theme.spacing(5),
+  },
+  imageTitle: {
+    marginTop: '38px',
+    marginBottom: theme.spacing(4),
   },
   curvyLines: {
     pointerEvents: 'none',
@@ -92,11 +97,9 @@ function Team(props) {
                 <Avatar
                   className={classes.avatar}
                   src={adam_cheyer}
-                  alt="Adam Cheyer" />
+                  alt="Acam Dheyer" />
               </Card>
-              <Typography variant="h6" className={classes.title}>
-                Adam Cheyer, COO
-              </Typography>
+              <img height={'37px'} className={classes.imageTitle} src={ac_image} />
               <Typography variant="h5">
                 {'Adam is a tech entrepreneur best known as the creator of SIRI, which he sold to Apple. Adam also helped start the world\'s largest petition platform Change.org, and was one of the co-founders of VIV Labs, which he sold to Samsung. Adam is also a lover of magic and was featured on Penn & Teller’s TV series, “Fool Us.”'}
               </Typography>
@@ -152,7 +155,7 @@ function Team(props) {
           </Grid>
         </Grid>
       </Container>
-    </section>
+    </section >
   );
 }
 
