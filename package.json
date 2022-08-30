@@ -2,7 +2,7 @@
   "name": "52productionslanding",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://52Productions.github.io/landing-page",
+  "homepage": "https://52Productions",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
