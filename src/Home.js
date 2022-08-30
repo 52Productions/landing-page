@@ -9,7 +9,7 @@ import ContactForm from "./modules/views/ContactForm";
 
 function App() {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router basename={''}>
       <Switch>
       <Route path="/standup" component={() => {
           window.location.assign("https://52-productions.zoom.us/j/83188027256")
