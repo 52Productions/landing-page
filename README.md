@@ -1,3 +1,8 @@
+# Notes on this App
+
+See the 52P DevOps Wiki for detailed notes on how to deploy this app. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
