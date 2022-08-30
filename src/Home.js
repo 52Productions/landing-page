@@ -6,17 +6,23 @@ import Hero from "./modules/views/Hero";
 import Team from "./modules/views/Team";
 import ContactForm from "./modules/views/ContactForm";
 
+
 function App() {
   return (
     <Router basename={window.location.pathname || ''}>
       <Switch>
-        <Route exact path="/">
+      <Route path="/standup" component={() => {
+          window.location.assign("https://52-productions.zoom.us/j/83188027256")
+          return null
+          }}/>
+      <Route exact path="/">
           <Index />
-        </Route>
+      </Route>
       </Switch>
     </Router>
   );
 }
+
 
 function Index() {
   return (
