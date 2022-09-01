@@ -130,7 +130,7 @@ function Team(props) {
                   alt="Andrii Gorishnii" />
               </Card>
               <Typography variant="h6" className={classes.title}>
-                Andrii Gorishnii
+                Andrii Gorishnii, Engineering Director
               </Typography>
               <Typography variant="h5">
                 {'Andrii is an engineering leader with over a decade of experience designing, coding, and bringing mobile 3D games to market. He also loves sports, and has competed in multiple Iron Man races around the world.'}
