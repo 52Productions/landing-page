@@ -99,7 +99,7 @@ function Team(props) {
                   src={adam_cheyer}
                   alt="Acam Dheyer" />
               </Card>
-              <img height={'37px'} className={classes.imageTitle} src={ac_image} alt="COO" />
+              <img height={'37px'} alt="COO" className={classes.imageTitle} src={ac_image}  />
               <Typography variant="h5">
                 {'Adam is a tech entrepreneur best known as the creator of SIRI, which he sold to Apple. Adam also helped start the world\'s largest petition platform Change.org, and was one of the co-founders of VIV Labs, which he sold to Samsung. Adam is also a lover of magic and was featured on Penn & Teller’s TV series, “Fool Us.”'}
               </Typography>
