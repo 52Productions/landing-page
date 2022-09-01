@@ -10,7 +10,7 @@ import adam_cheyer from '../../assets/adam_cheyer.png';
 import ac_image from '../../assets/ac_image_2.png';
 import jp from '../../assets/jp_portrait.jpg';
 import richard_turner from '../../assets/richard_turner_thumbnail.png';
-import andrii_g from '../../assets/andrii_city.jpeg';
+import andrii_g from '../../assets/andrii_ironman.jpg';
 import charles_park from '../../assets/charles_park.png';
 
 const styles = (theme) => ({
