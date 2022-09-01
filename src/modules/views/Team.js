@@ -127,7 +127,7 @@ function Team(props) {
                 <Avatar
                   className={classes.avatar}
                   src={andrii_g}
-                  alt="Andrii Gorishnii" />
+                  alt="Andrii Gorishnii"  />
               </Card>
               <Typography variant="h6" className={classes.title}>
                 Andrii Gorishnii, Engineering Director
