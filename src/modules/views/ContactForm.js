@@ -56,7 +56,7 @@ function ContactForm(props) {
         </Typography>
       </div>
       <div className={classes.iframe}>
-      <iframe title="google_contact_form" src="https://docs.google.com/forms/d/e/1FAIpQLSdcZSNZPAc2-M7Ln9MDsNyEqIVCnr2PWkcGohTc8NoCwebIxA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe title="google_contact_form" src="https://docs.google.com/forms/d/e/1FAIpQLSdcZSNZPAc2-M7Ln9MDsNyEqIVCnr2PWkcGohTc8NoCwebIxA/viewform?embedded=true" width="100%" height="800" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       </div>
       <Typography variant="body2" component="footer" className={classes.copyright}>
       © 52 Productions, Inc. {new Date().getFullYear()}
