@@ -136,7 +136,7 @@ function Team(props) {
                 {'Andrii is an engineering leader with over a decade of experience designing, coding, and bringing mobile 3D games to market. He also loves sports, and has competed in multiple Iron Man races around the world.'}
               </Typography>
             </div>
-          </Grid>
+          </Grid> 
           <Grid item xs={12} md={4}>
             <div className={classes.item}>
               <Card className={classes.circleCard}>
