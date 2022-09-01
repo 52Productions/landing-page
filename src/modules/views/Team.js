@@ -8,9 +8,9 @@ import Avatar from '@material-ui/core/Avatar'
 import Typography from '../components/Typography';
 import adam_cheyer from '../../assets/adam_cheyer.png';
 import ac_image from '../../assets/ac_image_2.png';
-import jp from '../../assets/jp_beach.jpg';
+import jp from '../../assets/jp_portrait.jpg';
 import richard_turner from '../../assets/richard_turner_thumbnail.png';
-import asa_turner from '../../assets/asa_turner.png';
+import andrii_g from '../../assets/andrii_city.jpeg';
 import charles_park from '../../assets/charles_park.png';
 
 const styles = (theme) => ({
@@ -117,7 +117,7 @@ function Team(props) {
                 Jonathan Pauli, Product Director
               </Typography>
               <Typography variant="h5">
-                {'Jonathan works as a Director of Software and Operations at Astra (ASTR), a rocket company dedicated to improving life on earth from space. Previously Jonathan worked to manage server deployments of AI technology supporting hundreds of millions of devices at Samsung. Jonathan is a certified master scuba diver, and a lover of all things adventure related.'}
+                {'Jonathan leads Software & DevOps teams at Astra (ASTR) as Director of Infrastructure & Constellation Software. Astra is an ambitious space company dedicated to improving life on earth from space. Previously Jonathan designed, built, and maintained large scale cloud deployments of AI technology at Samsung & Adobe. Jonathan is a certified dive master, and a lover of all things adventure related.'}
               </Typography>
             </div>
           </Grid>
@@ -126,14 +126,14 @@ function Team(props) {
               <Card className={classes.circleCard}>
                 <Avatar
                   className={classes.avatar}
-                  src={asa_turner}
-                  alt="Asa Turner" />
+                  src={andrii_g}
+                  alt="Andrii Gorishnii" />
               </Card>
               <Typography variant="h6" className={classes.title}>
-                Asa Spades Turner, Engineering Director
+                Andrii Gorishnii
               </Typography>
               <Typography variant="h5">
-                {'Asa codes Virtual Reality (VR) games for top business and government projects and previously was the personal stage manager for a world class act that performed in over one-hundred national and international cities including a 32-city tour throughout China. He holds advanced belts in four martial art systems and is a top ranked gamer.'}
+                {'Andrii is an engineering leader with over a decade of experience designing, coding, and bringing mobile 3D games to market. He also loves sports, and has competed in multiple Iron Man races around the world.'}
               </Typography>
             </div>
           </Grid>
