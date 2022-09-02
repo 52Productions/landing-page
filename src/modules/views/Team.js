@@ -6,12 +6,12 @@ import Card from '@material-ui/core/Card';
 import Container from '@material-ui/core/Container';
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '../components/Typography';
-import adam_cheyer from '../../assets/adam_cheyer.png';
-import ac_image from '../../assets/ac_image_2.png';
-import jp from '../../assets/jp_portrait.jpg';
-import richard_turner from '../../assets/richard_turner_thumbnail.png';
-import andrii_g from '../../assets/andrii_ironman.jpg';
-import charles_park from '../../assets/charles_park.png';
+import adam_cheyer from '../../assets/adam_cheyer.webp';
+import ac_image from '../../assets/ac_image_2.webp';
+import jp from '../../assets/jp_portrait.webp';
+import richard_turner from '../../assets/richard_turner_thumbnail.webp';
+import andrii_g from '../../assets/andrii_ironman.webp';
+import charles_park from '../../assets/charles_park.webp';
 
 const styles = (theme) => ({
   root: {
