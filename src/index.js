@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from "./Home";
 import reportWebVitals from './reportWebVitals';
+import 'typeface-roboto';
 
 ReactDOM.render(
   <React.StrictMode>
