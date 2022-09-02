@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import splash_image from '../../assets/Turner52_header.jpg';
+import splash_image from '../../assets/Turner52_header.webp';
 
 
 const styles = (theme) => ({
