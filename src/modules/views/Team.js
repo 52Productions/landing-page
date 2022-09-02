@@ -87,7 +87,7 @@ function Team(props) {
                 Richard Turner, CEO
               </Typography>
               <Typography variant="h5">
-                {'Seen in over 200 countries by over a billion people, multiple awardwinner and the subject of the 5-Star feature documentary film “DEALT”, Turner is a world-renowned Card Mechanic whose skills cannot be replicated, according to experts and scientists from Harvard and the University of Moscow. Turner’s touch and card skills leave audiences baffled beyond comprehension! Over the past fifty years Richard has used his unique gaming knowledge to design interactive puzzles, gambling board games and now conversational-interface gaming apps.'}
+                {'Seen in over 200 countries by over a billion people, multiple award winner and the subject of the 5-Star feature documentary film “DEALT”, Richard is a world-renowned Card Mechanic whose skills cannot be replicated, according to experts and scientists from Harvard and the University of Moscow. Richard’s touch and card skills leave audiences baffled beyond comprehension! Over the past fifty years Richard has used his unique gaming knowledge to design interactive puzzles, gambling board games and now conversational-interface gaming apps.'}
               </Typography>
             </div>
           </Grid>
