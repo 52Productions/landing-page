@@ -12,7 +12,7 @@ function App() {
     <Router basename={''}>
       <Switch>
       <Route path="/standup" component={() => {
-          window.location.assign("https://52-productions.zoom.us/j/83188027256")
+          window.location.assign("https://52-productions.zoom.us/s/5277775252")
           return null
           }}/>
       <Route exact path="/">
