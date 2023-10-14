@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Hero from "./modules/views/Hero";
 import Team from "./modules/views/Team";
 import ContactForm from "./modules/views/ContactForm";
+import Tos from "src/modules/components/Tos";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           window.location.assign("https://52-productions.zoom.us/s/5277775252")
           return null
           }}/>
+      <Route exact path="/tos" component={<Tos />}/>
       <Route exact path="/">
           <Index />
       </Route>
@@ -23,7 +25,15 @@ function App() {
   );
 }
 
-
+function ShowTOS()
+{
+  return (
+    <React.Fragment>
+      <Hero />
+      TOS HERE
+    </React.Fragment>
+  );
+}
 function Index() {
   return (
     <React.Fragment>
