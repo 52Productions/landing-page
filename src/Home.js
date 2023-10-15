@@ -6,6 +6,8 @@ import Hero from "./modules/views/Hero";
 import Team from "./modules/views/Team";
 import ContactForm from "./modules/views/ContactForm";
 import Tos from "./modules/views/Tos";
+import PrivacyPolicy from "./modules/views/PrivacyPolicy";
+
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
       <Route exact path="/tos">
           <ShowTOS />
       </Route>
+      <Route exact path="/privacy">
+          <ShowPrivacyPolicy />
+      </Route>
       <Route  path="/">
           <Index />
       </Route>
@@ -27,11 +32,22 @@ function App() {
   );
 }
 
+function ShowPrivacyPolicy()
+{
+  return (
+    <React.Fragment>
+      <PrivacyPolicy />
+
+    </React.Fragment>
+  );
+}
+
 function ShowTOS()
 {
   return (
     <React.Fragment>
       <Tos />
+
     </React.Fragment>
   );
 }
