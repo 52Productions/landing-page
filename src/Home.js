@@ -7,6 +7,7 @@ import Team from "./modules/views/Team";
 import ContactForm from "./modules/views/ContactForm";
 import Tos from "./modules/views/Tos";
 import PrivacyPolicy from "./modules/views/PrivacyPolicy";
+import SportsStreak from "./modules/views/SportsStreak";
 
 
 
@@ -53,8 +54,11 @@ function ShowTOS()
 }
 
 function Index() {
+  console.log('Index component rendering');
+
   return (
     <React.Fragment>
+      <SportsStreak />
       <Hero />
       <Team />
       <ContactForm />
